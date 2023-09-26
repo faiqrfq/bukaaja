@@ -1,0 +1,333 @@
+@font-face {
+    font-family: 'poppins';
+    src: url(Fonts/Poppins/Poppins-Regular.ttf);
+
+}
+
+@font-face {
+    font-family: 'SignPainter';
+    src: url(Fonts/SignPainter/SignPainter-HouseScript-Regular.ttf);
+}
+
+.logo {
+    height: 45px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'poppins';
+}
+
+nav {
+    padding: 30px 70px;
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: bold;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+
+}
+
+.nav-grup {
+    display: flex;
+}
+
+.nav-items {
+    margin-left: 13px;
+    margin-right: 13px;
+}
+
+header {
+    width: 100vw;
+    height: 80vh;
+    background-image: url(Images/Background-1.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.judul {
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+}
+
+.jdl1 {
+    font-size: 6rem;
+    font-family: SignPainter;
+}
+
+.subjdl {
+    font-size: 2.5rem;
+    margin: 50px 0px;
+    margin-top: auto;
+}
+
+.judul1 {
+    text-align: center;
+    font-size: 4rem;
+    padding-top: 60px;
+    font-family: SignPainter;
+}
+
+.sub-judul {
+    text-align: center;
+    font-size: 1.7rem;
+    margin-top: 30px;
+
+}
+
+
+
+
+.button-judul {
+    background-color: #32BD6B;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 10px 20px;
+    margin: 20px 37%;
+    border-radius: 10px;
+    font-size: 1.7rem;
+    width: 400px;
+}
+
+.button-judul3 {
+    background-color: #32BD6B;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 10px 20px;
+    margin: 20px 42%;
+    border-radius: 10px;
+    font-size: 1.7rem;
+    width: 230px;
+}
+
+
+
+/* konten2 */
+
+.ratting {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px 0px;
+    background-image: url(Images/Background-3.jpg);
+    background-blend-mode: overlay;
+    width: 100vw;
+    height: 500px;
+    color: white;
+}
+
+.ratting-grup {
+    display: flex;
+    align-items: center;
+    padding: 40px 200px 20px;
+}
+
+.profile {
+    margin-right: 30px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: red;
+    background-image: url(Images/Client-1.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.rate {
+    width: 1000px;
+}
+
+/* konten3 */
+
+.service {
+    padding: 10px;
+    width: 300px;
+    height: 200px;
+}
+
+
+
+
+/* konten4 */
+.ikln {
+    margin-left: 50px;
+}
+
+.iklan {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 400px;
+    background-color: rgb(32, 52, 135);
+    background-image: url(Images/Background-2.jpg);
+    background-position: center;
+    background-size: cover;
+    /*  */
+    position: relative;
+    aspect-ratio: 2 / 1;
+    object-fit: cover;
+    bottom: 0;
+    margin-inline: auto;
+    inset: auto 0 0;
+}
+
+.foto-iklan {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    z-index: 99;
+    position: relative;
+    right: 30px;
+
+}
+
+.judul2 {
+    color: white;
+    font-size: 4rem;
+    margin-top: 60px;
+    font-family: SignPainter;
+}
+
+.sub-judul2 {
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 30px;
+}
+
+.button-judul2 {
+    background-color: #32BD6B;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+    font-size: 1.7rem;
+    width: 400px;
+}
+
+
+
+.projek {
+    padding: 10px;
+    width: 300px;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 20px;
+}
+
+
+
+/* konten 5 */
+.konten5 {
+    background-color: #20323C;
+    z-index: 99;
+    width: 100%;
+    height: 700px;
+}
+
+
+
+/* konten 6 */
+.card {
+    width: 500px;
+    background-color: #20323C;
+    color: white;
+    padding: 20px 0px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 0 20px;
+}
+
+.des1 {
+    line-height: 170%;
+    margin-top: 30px;
+    font-size: 1.3rem;
+    padding: 0px 50px;
+    color: #ffffffb8;
+}
+
+.line {
+
+    width: 100%;
+    height: 2px;
+    background-color: rgb(0, 255, 76);
+    margin: 30px 0px;
+}
+
+.button-judul4 {
+    background-color: #32BD6B;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 10px 20px;
+    margin: 30px 18%;
+    border-radius: 10px;
+    font-size: 1.6rem;
+    width: 230px;
+}
+
+
+/* foooter */
+
+footer {
+    width: 100vw;
+    background-color: #20323C;
+    color: white;
+    font-size: 1.1rem;
+    margin-top: 200px;
+    /*  */
+    position: relative;
+    object-fit: cover;
+    bottom: 0;
+    margin-inline: auto;
+    inset: auto 0 0;
+}
+
+.f1 {
+    padding: 30px 120px;
+    width: 400px;
+}
+
+.f2 {
+    padding: 30px 30px;
+    width: 400px;
+
+}
+
+.icon {
+    margin: 20px 10px;
+}
+
+.footer2 {
+    width: 97%;
+    background-color: #152229;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+}
+
+.worker4 {
+    z-index: 99;
+    position: relative;
+    left: 45px;
+    width: 350px;
+    height: 400px;
+}
